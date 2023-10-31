@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<palette:CategoryCmp xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:palette="http://www.ibm.com/wbi/2005/eflow_palette" xmlns:utility="http://www.ibm.com/wbi/2005/eflow_utility" xmi:id="SecuriytNodes">
+  <categoryLabel xmi:type="utility:TranslatableString" key="category.name" bundleName="palette" pluginId="SecuriytNodes"/>
+  <cmpGroups xmi:type="palette:GroupCmp">
+    <cmpEntries xmi:type="palette:ToolEntry" xmi:id="PasswordBasedDecryption" icon16Name="platform:/plugin/SecuriytNodes/icons/full/clcl16/PasswordBasedDecryption.gif" icon32Name="platform:/plugin/SecuriytNodes/icons/full/obj30/PasswordBasedDecryption.gif" toolClassName="com.ibm.etools.mft.flow.editor.MFTNodeCreationTool" toolClassPluginId="com.ibm.etools.mft.flow" nodeURI="PasswordBasedDecryption.msgnode">
+      <entryLabel xmi:type="utility:TranslatableString" key="entry.PasswordBasedDecryption" bundleName="palette" pluginId="SecuriytNodes"/>
+      <entryShortDescription xmi:type="utility:TranslatableString" key="tooltip.PasswordBasedDecryption" bundleName="palette" pluginId="SecuriytNodes"/>
+    </cmpEntries>
+    <cmpEntries xmi:type="palette:ToolEntry" xmi:id="PasswordBasedEncryption" icon16Name="platform:/plugin/SecuriytNodes/icons/full/clcl16/PasswordBasedEncryption.gif" icon32Name="platform:/plugin/SecuriytNodes/icons/full/obj30/PasswordBasedEncryption.gif" toolClassName="com.ibm.etools.mft.flow.editor.MFTNodeCreationTool" toolClassPluginId="com.ibm.etools.mft.flow" nodeURI="PasswordBasedEncryption.msgnode">
+      <entryLabel xmi:type="utility:TranslatableString" key="entry.PasswordBasedEncryption" bundleName="palette" pluginId="SecuriytNodes"/>
+      <entryShortDescription xmi:type="utility:TranslatableString" key="tooltip.PasswordBasedEncryption" bundleName="palette" pluginId="SecuriytNodes"/>
+    </cmpEntries>
+  </cmpGroups>
+</palette:CategoryCmp>

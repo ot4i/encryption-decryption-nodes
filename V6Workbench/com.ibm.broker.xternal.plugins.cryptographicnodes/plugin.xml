@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="SecuriytNodes" name="SecuriytNodes" version="1.0.0">
+    <!--This is a generated file.-->
+    <!--User modifications to this section will not be preserved.-->
+    <requires>
+        <import match="greaterOrEqual" plugin="com.ibm.etools.mft.api" version="6.0.0"/>
+    </requires>
+    <runtime>
+        <library name="SecuriytNodes.jar"/>
+    </runtime>
+    <!--This is a generated file.-->
+    <!--User modifications to this section will not be preserved.-->
+    <extension point="org.eclipse.help.contexts">
+        <contexts file="HelpContexts.xml"/>
+    </extension>
+    <!--This is a generated file.-->
+    <!--User modifications to this section will not be preserved.-->
+    <extension point="com.ibm.etools.mft.api.nodes"/>
+    <!--This is a generated file.-->
+    <!--User modifications to this section will not be preserved.-->
+    <extension point="com.ibm.etools.mft.uri.pluginspace">
+        <directory>
+            <file encoding="CP1252" name="PasswordBasedEncryption.msgnode"/>
+            <file encoding="ISO-8859-1" name="PasswordBasedEncryption.properties"/>
+            <file encoding="ISO-8859-1" name="PasswordBasedDecryption.properties"/>
+            <file encoding="CP1252" name="PasswordBasedDecryption.msgnode"/>
+        </directory>
+    </extension>
+</plugin>
